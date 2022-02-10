@@ -1,0 +1,2 @@
+<input id="consulta" name="consulta" type="submit" class="botao" value="Consulta">   botão
+<input type="text" name="codc" id="codc" value="" class="small" maxlength="7">   campo
