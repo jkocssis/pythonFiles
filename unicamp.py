@@ -7,10 +7,10 @@ driver = webdriver.Firefox(firefox_binary=binary, executable_path=r'/usr/local/b
 
 driver.get(url)
 cpfElem = driver.find_element_by_name('formulario:cpf')
-cpfElem.send_keys('13788904852')
+cpfElem.send_keys('')
 buttonBuscar = driver.find_element_by_class_name("rh-btn")
 buttonBuscar.click()
 senha = driver.find_element_by_name('formulario:senha')
-senha.send_keys('Arendt21')
+senha.send_keys('')
 buttonBuscar = driver.find_element_by_class_name("rh-btn")
 buttonBuscar.click()
